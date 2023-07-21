@@ -1,0 +1,61 @@
+2023.07.21 12:08:49 INFO  Started: Metals version 0.11.12 in workspace '/Users/jayathma/Documents/GitHub/Scala-Labsheet4' for client Visual Studio Code 1.80.1.
+Jul 21, 2023 12:08:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 21, 2023 12:08:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 21, 2023 12:08:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 21, 2023 12:08:49 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/jayathma/Documents/GitHub/Scala-Labsheet4/.metals/metals (H2 2.1)
+Jul 21, 2023 12:08:49 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 21, 2023 12:08:49 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.026s)
+Jul 21, 2023 12:08:49 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 21, 2023 12:08:49 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 21, 2023 12:08:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 21, 2023 12:08:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 21, 2023 12:08:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 21, 2023 12:08:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 21, 2023 12:08:50 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.117s)
+2023.07.21 12:08:50 INFO  time: initialize in 0.89s
+2023.07.21 12:08:52 WARN  Build server is not auto-connectable.
+2023.07.21 12:08:52 WARN  no build tool detected in workspace '/Users/jayathma/Documents/GitHub/Scala-Labsheet4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.21 12:08:52 WARN  no build target for: /Users/jayathma/Documents/GitHub/Scala-Labsheet4/Q1.scala
+2023.07.21 12:08:52 WARN  no build target for: /Users/jayathma/Documents/GitHub/Scala-Labsheet4/Q2.scala
+2023.07.21 12:08:55 INFO  no build target found for /Users/jayathma/Documents/GitHub/Scala-Labsheet4/Q1.scala. Using presentation compiler with project's scala-library version: 3.2.2
+Jul 21, 2023 12:08:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.07.21 12:08:55 WARN  no build target for: /Users/jayathma/Documents/GitHub/Scala-Labsheet4/Q1.scala
+Jul 21, 2023 12:08:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Jul 21, 2023 12:08:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Jul 21, 2023 12:08:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2023.07.21 12:08:56 WARN  no build target for: /Users/jayathma/Documents/GitHub/Scala-Labsheet4/Q2.scala
+2023.07.21 12:08:59 INFO  time: code lens generation in 2.84s
+2023.07.21 12:08:59 INFO  time: code lens generation in 2.92s
+2023.07.21 12:08:59 INFO  time: code lens generation in 2.89s
+2023.07.21 12:08:59 INFO  time: code lens generation in 3.29s
+2023.07.21 12:08:59 INFO  time: code lens generation in 3.38s
+2023.07.21 12:12:35 WARN  no build target for: /Users/jayathma/Downloads/Scala Tutorial 4 2/src/main/scala/T4/Q3.scala
+2023.07.21 12:12:36 INFO  time: code lens generation in 1.01s
+2023.07.21 12:18:41 WARN  no build target for: /Users/jayathma/Downloads/Scala Tutorial 4 2/src/main/scala/T4/Q3.scala
+2023.07.21 12:20:59 WARN  no build target for: /Users/jayathma/Downloads/Scala Tutorial 4 2/src/main/scala/T4/Q3.scala
+2023.07.21 12:22:42 WARN  no build target for: /Users/jayathma/Downloads/Scala Tutorial 4 2/src/main/scala/T4/Q3.scala
+2023.07.21 12:23:00 WARN  no build target for: /Users/jayathma/Downloads/Scala Tutorial 4 2/src/main/scala/T4/Q3.scala
+2023.07.21 12:23:40 WARN  no build target for: /Users/jayathma/Downloads/Q3.scala
+2023.07.21 12:23:40 WARN  no build target for: /Users/jayathma/Downloads/Q3.scala
+2023.07.21 12:42:04 WARN  no build target for: /Users/jayathma/Downloads/Tutorial 2/1.scala
+2023.07.21 12:42:11 WARN  no build target for: /Users/jayathma/Downloads/Tutorial 2/4.scala
+2023.07.21 12:42:19 INFO  Shutting down server
+2023.07.21 12:42:19 INFO  shutting down Metals
+2023.07.21 12:42:19 INFO  Exiting server
