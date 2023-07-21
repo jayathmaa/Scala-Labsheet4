@@ -1,4 +1,3 @@
-package T4
 
 object Q3 {
   def toUpper(str:String): String = {
