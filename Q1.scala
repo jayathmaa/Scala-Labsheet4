@@ -1,8 +1,8 @@
-package T4
+
 
 import scala.io.StdIn
 
-object Q1 {
+object Q01 {
   def chooseTheRate(deposit:Double): Double = {
     if(deposit<=20000){
       (2.0/100);

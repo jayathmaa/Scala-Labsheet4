@@ -1,8 +1,8 @@
-package T4
+
 
 import scala.io.StdIn
 
-object Number {
+object number {
   def printNegative(): Unit = {
     println("Negative number");
   }
